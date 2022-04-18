@@ -1,7 +1,7 @@
 <template>
   <div :class="classObj" class="app-wrapper">
-    <topbar style="backfround:pink;height:70px" />
-    67678
+    <!-- <tobbar style="backfround:pink;height:70px" />
+    67678 -->
     <div v-if="device==='mobile'&&sidebar.opened" class="drawer-bg" @click="handleClickOutside" />
     <sidebar class="sidebar-container" />
     <div :class="{hasTagsView:needTagsView}" class="main-container">
